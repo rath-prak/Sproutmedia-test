@@ -2,8 +2,17 @@
 // Typography
 //**
 
+@font-face { font-family: Gotham_black; src: url(../fonts/GOTHAM-BLACK.TTF);}
+@font-face { font-family: Gotham_medium; src: url(../fonts/GOTHAM-MEDIUM.TTF);}
+@font-face { font-family: Gotham_thin; src: url(../fonts/GOTHAM-LIGHT.TTF);}
+@font-face { font-family: Rene_Bieder; src: url(../fonts/Rene-Bieder.otf);}
+
+$bold: Gotham_black, sans-serif;
+$medium: Gotham_medium, sans-serif;
+$body: Gotham_thin, sans-serif;
+
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: $body, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 100%;
   font-style: normal;
   font-weight: 400;
@@ -25,7 +34,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: $medium, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1 {
