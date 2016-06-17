@@ -1,24 +1,29 @@
-//**
-// Homepage - Main Laning page
-//**
+ /*Homepage - Main Laning page*/
 
 
-#main-landing-page {
-	background: $green;
+.main-landing-page {
+	background: url(../img/test-bg.jpg)no-repeat center center fixed;
+	background-size: cover;
 }
 
-#main-menu {
-	background: rgba(0, 47, 77, .3);
-	height: 70px;
+/*.main-header {
+	background: #fff;
+	height: 80px;
 	padding: 0 10px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 12;
 	box-sizing: border-box;
-}
+}*/
 
-// Responsive styles if needed
+
+
+
+
+
+
+/*// Responsive styles if needed
 // @include responsive($big-break) {
 // }
 // @include responsive($small-break) {
@@ -28,4 +33,5 @@
 // @include mobilefirst($big-break) {
 // }
 // @include mobilefirst($small-break) {
-// }
+// }*/
+

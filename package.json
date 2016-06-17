@@ -4,6 +4,7 @@
   "author": "Lee Munroe",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.13.0",
     "grunt": "^0.4.5",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^0.6.1",
