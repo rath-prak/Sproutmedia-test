@@ -34,26 +34,29 @@
 /* Portfolio Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
 .work {
 	.our-work-banner {
 		height: 400px;
 		width: 100%;
 		background: #3fb0ac;
 	}
-.portfolio {
-	margin-top: -300px;
-}
 
-	.our-work-header {
-		text-align: center;
-			h1 {
-				text-transform: uppercase;
-				font-size: 55px;
-				margin-bottom: 0;
-			}
+.our-work {
+	margin-top: -300px;
+	text-align: center;
+		h1 {
+			text-transform: uppercase;
+			font-size: 55px;
+			margin-bottom: 0;
+		}
 	}
 }
+
+.portfolio-item {
+	border: 1px solid blue;
+	height: 320px;
+}
+
 
 .footer {
 	background: #252839;
