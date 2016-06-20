@@ -7,8 +7,6 @@ $(document).ready(function(){
     $('nav').removeClass('main-nav-hide');
   });
 
-
-
 // initialize fullpage
 
   $('#fullpage').fullpage({

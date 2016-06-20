@@ -4,22 +4,8 @@
 .main-landing-page {
 	background: url(../img/test-bg.jpg)no-repeat center center fixed;
 	background-size: cover;
-}
-
-/*.main-header {
-	background: #fff;
-	height: 80px;
-	padding: 0 10px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 12;
-	box-sizing: border-box;
-}*/
 
 
-.main-landing-page {
-	/*text-align: center;*/
 	h1 {
 		font-family: $bold;
 		color: #fff;
@@ -38,12 +24,39 @@
 	}
 }
 
+/* About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.about {
+	background: #c7ad88;
+}
+
+/* Portfolio Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 .work {
-	background: url(../img/portfolio-bg.jpg)no-repeat center center fixed;
+	.our-work-banner {
+		height: 400px;
+		width: 100%;
+		background: #3fb0ac;
+	}
+.portfolio {
+	margin-top: -300px;
+}
+
+	.our-work-header {
+		text-align: center;
+			h1 {
+				text-transform: uppercase;
+				font-size: 55px;
+				margin-bottom: 0;
+			}
+	}
 }
 
 .footer {
-	background: #edd9c0;
+	background: #252839;
 	color: #fff;
 }
 

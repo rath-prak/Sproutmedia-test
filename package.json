@@ -11,5 +11,8 @@
     "grunt-postcss": "^0.5.4",
     "grunt-sass": "^1.0.0",
     "matchdep": "*"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.1.0"
   }
 }
